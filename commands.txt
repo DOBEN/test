@@ -1,24 +1,39 @@
 git status - standard informationen
 untracked files - nicht von git verwaltet
 git add <files> e.g.. git add commands.txt
-git commit - wegpunkt (später zum punkt zurückgehen wenn nötig)
+git commit - wegpunkt (spÃ¤ter zum punkt zurÃ¼ckgehen wenn nÃ¶tig)
 git log - neustes oben
 git checkout 18b6 -  hole speziellen branch oder commit in abeitsspeicher (nur ersten 4-6 zeichen; bis die nummer eindeutig ist)
-git stash - änderungen in stash
+git stash - Ã¤nderungen in stash
 git stash apply or git stash pop - laden der sachen im stash 
 git checkout master - springt zum masterbranch
 git stash list - auflisten aller commits in stash
-git help - offnet alle möglichen commands
+git help - offnet alle mÃ¶glichen commands
 git help <command> e.g. git help add 
 git branch   - auflisten aller vorhandenen branches
-e.g. git branch parallel - öffnet neuen branch parallel
+e.g. git branch parallel - Ã¶ffnet neuen branch parallel
 git checkout parallel  - wechselt to branch parallel, wenn parallel existiert
 git chekcout -b parallel      - legt neuen branch parallel an und checkout out to parallel
 git merge parallel               - commits from branch parallel werden auf den aktuellen aktiven branch geholt 
-git commit -a       - commit alle änderungen und files
-git log --online  - bessere übersicht der commits
+git commit -a       - commit alle Ã¤nderungen und files
+git log --online  - bessere Ã¼bersicht der commits
 git log -n 2       - zeigt nur die letzten 2 commits an
 git log -n 2 --online           -kombination der letzten zwei commands
+merge conflict - mit hand Ã¶ffnen text datei und verbessern -  neu speichern  ; git status zeigt auch an dass merge conflict
+git log --oneline --graph       - graphische darstellung der commits, branches, alles
+git remode             - listet namen von remodes auf ; remode ist ein anderes repository ; remode is kommunikationslein
+git remode add <name> <url> z.B. git remode origin https://github.com/DOBEN/test.git
+git remote -v         - zeigt mehr informationen an 
+git push - uploaden der informationen online ; fehlermeldung beim ersten mal; kopieren und in konsole eingeben
+
+
+git fetch
+
+repository in gitHub anlegen 
+
+
+rechte maustaste in shell - einfÃ¼gen
+enter taste in shell - kopieren
 
 
 
