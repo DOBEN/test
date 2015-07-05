@@ -1,1 +1,15 @@
 git status - standard informationen
+untracked files - nicht von git verwaltet
+git add <files> e.g.. git add commands.txt
+git commit - wegpunkt (später zum punkt zurückgehen wenn nötig)
+git log - neustes oben
+git checkout 18b6 -  hole speziellen branch oder commit in abeitsspeicher (nur ersten 4-6 zeichen; bis die nummer eindeutig ist)
+git stash - änderungen in stash
+git stash apply or git stash pop - laden der sachen im stash 
+git checkout master - springt zum masterbranch
+git stash list - auflisten aller commits in stash
+git help
+git help <command> e.g. git help add 
+
+
+stash zwischenlager - wenn man keinen commit machen will, wenn z.B. projekt kaput
