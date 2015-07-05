@@ -8,8 +8,9 @@ git stash - änderungen in stash
 git stash apply or git stash pop - laden der sachen im stash 
 git checkout master - springt zum masterbranch
 git stash list - auflisten aller commits in stash
-git help
+git help - offnet alle möglichen commands
 git help <command> e.g. git help add 
+
 
 
 stash zwischenlager - wenn man keinen commit machen will, wenn z.B. projekt kaput
