@@ -15,6 +15,11 @@ e.g. git branch parallel - öffnet neuen branch parallel
 git checkout parallel  - wechselt to branch parallel, wenn parallel existiert
 git chekcout -b parallel      - legt neuen branch parallel an und checkout out to parallel
 git merge parallel               - commits from branch parallel werden auf den aktuellen aktiven branch geholt 
+git commit -a       - commit alle änderungen und files
+git log --online  - bessere übersicht der commits
+git log -n 2       - zeigt nur die letzten 2 commits an
+git log -n 2 --online           -kombination der letzten zwei commands
+
 
 
 
