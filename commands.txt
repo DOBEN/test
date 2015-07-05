@@ -25,7 +25,11 @@ git remode             - listet namen von remodes auf ; remode ist ein anderes r
 git remode add <name> <url> z.B. git remode origin https://github.com/DOBEN/test.git
 git remote -v         - zeigt mehr informationen an 
 git push - uploaden der informationen online ; fehlermeldung beim ersten mal; kopieren und in konsole eingeben
-
+git pull - hohlt alles von remote adresse runter und wendet an
+git fetch - holt alles von remote addresse runter, aber wendet nicht an, git status wird gefragt ob man es mergen, pullen soll
+git log --graph --oneline --all    -zeigt alle branches, stash in graph an
+git push --all                  - alles nach remote geschoben
+git pull -- all               - alles von remote geholt
 
 git fetch
 
