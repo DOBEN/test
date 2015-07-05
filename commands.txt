@@ -10,6 +10,10 @@ git checkout master - springt zum masterbranch
 git stash list - auflisten aller commits in stash
 git help - offnet alle möglichen commands
 git help <command> e.g. git help add 
+git commit -a       - commit alle änderungen und files
+git log --online  - bessere übersicht der commits
+git log -n 2       - zeigt nur die letzten 2 commits an
+git log -n 2 --online           -kombination der letzten zwei commands
 
 
 
