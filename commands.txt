@@ -1,4 +1,7 @@
-﻿git init - neues repository 
+﻿in D: Desktop\Doris\Documents\GitHu\test
+
+
+git init - neues repository 
 git status - standard informationen
 untracked files - nicht von git verwaltet
 git add <files> e.g.. git add commands.txt
