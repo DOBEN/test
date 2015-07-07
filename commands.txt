@@ -1,3 +1,4 @@
+﻿git init - neues repository 
 git status - standard informationen
 untracked files - nicht von git verwaltet
 git add <files> e.g.. git add commands.txt
@@ -30,15 +31,30 @@ git fetch - holt alles von remote addresse runter, aber wendet nicht an, git sta
 git log --graph --oneline --all    -zeigt alle branches, stash in graph an
 git push --all                  - alles nach remote geschoben
 git pull -- all               - alles von remote geholt
+git clone https://github.com/agp8x/tinkerforge-joystick          - clont repository in aktuellen ordner von webseite
+git clone https://github.com/agp8x/tinkerforge-joystick  neuerName -clont repsoitory mit neuem namen
 
-git fetch
+
+
+
+git fetch 
+git init - legt lehres git repository an 
 
 repository in gitHub anlegen 
+letzten zwei befehle in shell kopieren
 
 
 rechte maustaste in shell - einfügen
 enter taste in shell - kopieren
 
+cd .. - einen Ordner zurück
+c:    - auf laufwerk c wechseln
+ls   - liestet alle Inhalte des Ordners auf 
+ls <file>   - liestet inhalte dieses Ordner auf; Ordner muss an der aktuellen Stelle sein .z.B. ls <regloCPF>
+mkdir <filename> - legt neuen Ordner mit name filename an
+
+cd leerzeichen und dann tap drücken - gibt alle möglichen ordner/ wege an
+cd tmp   - geht in ordner tmp
 
 
 
