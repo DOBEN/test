@@ -36,9 +36,9 @@ git push --all                  - alles nach remote geschoben
 git pull -- all               - alles von remote geholt
 git clone https://github.com/agp8x/tinkerforge-joystick          - clont repository in aktuellen ordner von webseite
 git clone https://github.com/agp8x/tinkerforge-joystick  neuerName -clont repsoitory mit neuem namen
-
-
-
+git diff   - zeigt lezten Änderungen im Vergleich zum letzten commit an
+git diff --stat -zeigt statistische Änderungen an
+git diff --word-diff   -zeigt veränderungen je wort an
 
 git fetch 
 git init - legt lehres git repository an 
